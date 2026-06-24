@@ -3,46 +3,73 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dog Age Calculator</title>
+<title>Pet Calculators</title>
+
 <style>
 body{
     font-family:Arial,sans-serif;
-    max-width:700px;
+    max-width:900px;
     margin:auto;
     padding:20px;
+    line-height:1.6;
 }
-input,button{
-    padding:10px;
-    margin:10px 0;
+
+header{
+    text-align:center;
+    margin-bottom:40px;
 }
-.result{
-    font-size:24px;
+
+.card{
+    border:1px solid #ddd;
+    padding:20px;
+    margin:15px 0;
+    border-radius:10px;
+}
+
+a{
+    text-decoration:none;
+    color:#0066cc;
     font-weight:bold;
 }
+
+footer{
+    margin-top:50px;
+    text-align:center;
+    color:#666;
+}
 </style>
+
 </head>
 <body>
 
-<h1>Dog Age Calculator</h1>
+<header>
+<h1>Pet Calculators</h1>
+<p>Free online calculators for dog and cat owners.</p>
+</header>
 
-<p>Enter your dog's age in years.</p>
+<div class="card">
+<h2><a href="dog-age-calculator.html">Dog Age Calculator</a></h2>
+<p>Convert your dog's age into human years.</p>
+</div>
 
-<input type="number" id="dogAge" placeholder="Dog age">
+<div class="card">
+<h2><a href="cat-age-calculator.html">Cat Age Calculator</a></h2>
+<p>Estimate your cat's age in human years.</p>
+</div>
 
-<button onclick="calculateAge()">Calculate</button>
+<div class="card">
+<h2><a href="about.html">About</a></h2>
+<p>Learn more about this website.</p>
+</div>
 
-<div class="result" id="result"></div>
+<div class="card">
+<h2><a href="contact.html">Contact</a></h2>
+<p>Get in touch with us.</p>
+</div>
 
-<script>
-function calculateAge() {
-    let dogAge = document.getElementById("dogAge").value;
-    let humanAge = dogAge * 7;
-
-    document.getElementById("result").innerHTML =
-        "Estimated Human Age: " + humanAge;
-    <!-- update -->
-}
-</script>
+<footer>
+<p>© 2025 Pet Calculators</p>
+</footer>
 
 </body>
 </html>
