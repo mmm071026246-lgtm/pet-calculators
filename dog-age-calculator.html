@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dog Age Calculator</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    max-width:800px;
+    margin:auto;
+    padding:20px;
+    line-height:1.6;
+}
+
+input,button{
+    padding:10px;
+    font-size:16px;
+}
+
+.result{
+    margin-top:20px;
+    font-size:24px;
+    font-weight:bold;
+}
+
+a{
+    text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<a href="index.html">← Home</a>
+
+<h1>Dog Age Calculator</h1>
+
+<p>
+Use this free calculator to estimate your dog's age in human years.
+</p>
+
+<input type="number" id="dogAge" min="0" step="0.1" placeholder="Enter dog age">
+
+<button onclick="calculateAge()">Calculate</button>
+
+<div class="result" id="result"></div>
+
+<h2>How Dog Age Is Calculated</h2>
+
+<p>
+The common "multiply by 7" rule is only a rough estimate.
+Dogs mature faster during their first two years of life.
+</p>
+
+<script>
+function calculateAge(){
+
+let age = parseFloat(document.getElementById("dogAge").value);
+
+if(isNaN(age) || age < 0){
+    document.getElementById("result").innerHTML =
+    "Please enter a valid age.";
+    return;
+}
+
+let humanAge;
+
+if(age <= 1){
+    humanAge = 15;
+}
+else if(age <= 2){
+    humanAge = 24;
+}
+else{
+    humanAge = 24 + ((age - 2) * 5);
+}
+
+document.getElementById("result").innerHTML =
+"Estimated Human Age: " + humanAge.toFixed(1) + " years";
+}
+</script>
+
+</body>
+</html>
