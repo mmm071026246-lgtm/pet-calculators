@@ -1,60 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://mmm071026246-lgtm.github.io/pet-calculators/</loc>
-  </url>
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/</loc>
+    </url>
 
-  <url>
-    <loc>https://mmm071026246-lgtm.github.io/pet-calculators/dog-age-calculator.html</loc>
-  </url>
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/about.html</loc>
+    </url>
 
-  <url>
-    <loc>https://mmm071026246-lgtm.github.io/pet-calculators/cat-age-calculator.html</loc>
-  </url>
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/cat-age-calculator.html</loc>
+    </url>
 
-  <url>
-    <loc>https://mmm071026246-lgtm.github.io/pet-calculators/dog-pregnancy-calculator.html</loc>
-  </url>
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/cat-food-calculator.html</loc>
+    </url>
 
-  <url>
-    <loc>https://mmm071026246-lgtm.github.io/pet-calculators/cat-pregnancy-calculator.html</loc>
-  </url>
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/cat-pregnancy-calculator.html</loc>
+    </url>
 
-  <url>
-    <loc>https://mmm071026246-lgtm.github.io/pet-calculators/puppy-weight-calculator.html</loc>
-  </url>
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/cat-pregnancy-length-explained.html</loc>
+    </url>
 
-  <url>
-    <loc>https://mmm071026246-lgtm.github.io/pet-calculators/dog-food-calculator.html</loc>
-  </url>
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/cat-water-intake-calculator.html</loc>
+    </url>
 
-  <url>
-    <loc>https://mmm071026246-lgtm.github.io/pet-calculators/cat-food-calculator.html</loc>
-  </url>
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/contact.html</loc>
+    </url>
 
-  <url>
-    <loc>https://mmm071026246-lgtm.github.io/pet-calculators/dog-calorie-calculator.html</loc>
-  </url>
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/dog-age-calculator.html</loc>
+    </url>
 
-  <url>
-    <loc>https://mmm071026246-lgtm.github.io/pet-calculators/dog-water-intake-calculator.html</loc>
-  </url>
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/dog-calorie-calculator.html</loc>
+    </url>
 
-  <url>
-    <loc>https://mmm071026246-lgtm.github.io/pet-calculators/cat-water-intake-calculator.html</loc>
-  </url>
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/dog-food-calculator.html</loc>
+    </url>
 
-  <url>
-    <loc>https://mmm071026246-lgtm.github.io/pet-calculators/about.html</loc>
-  </url>
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/dog-pregnancy-calculator.html</loc>
+    </url>
 
-  <url>
-    <loc>https://mmm071026246-lgtm.github.io/pet-calculators/contact.html</loc>
-  </url>
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/dog-pregnancy-timeline.html</loc>
+    </url>
 
-  <url>
-    <loc>https://mmm071026246-lgtm.github.io/pet-calculators/privacy-policy.html</loc>
-  </url>
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/dog-water-intake-calculator.html</loc>
+    </url>
+
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/how-much-food-should-i-feed-my-cat.html</loc>
+    </url>
+
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/how-much-food-should-i-feed-my-dog.html</loc>
+    </url>
+
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/how-much-water-should-a-cat-drink.html</loc>
+    </url>
+
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/how-much-water-should-a-dog-drink.html</loc>
+    </url>
+
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/how-to-calculate-cat-age.html</loc>
+    </url>
+
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/how-to-calculate-dog-age.html</loc>
+    </url>
+
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/privacy-policy.html</loc>
+    </url>
+
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/puppy-growth-stages-month-by-month.html</loc>
+    </url>
+
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/puppy-weight-calculator.html</loc>
+    </url>
+
+    <url>
+        <loc>https://mmm071026246-lgtm.github.io/pet-calculators/signs-your-dog-is-overweight.html</loc>
+    </url>
 
 </urlset>
