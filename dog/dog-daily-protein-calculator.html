@@ -1,7 +1,23 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dog Daily Protein Calculator | Estimate Daily Protein Needs</title>
+
+<meta name="description" content="Free Dog Daily Protein Calculator. Estimate how much protein your dog may need each day based on body weight and activity level.">
+
+<meta name="keywords" content="dog protein calculator,dog nutrition calculator,daily protein intake for dogs,dog feeding calculator">
+
+<meta name="robots" content="index,follow">
+
+<link rel="canonical" href="https://mmm071026246-lgtm.github.io/pet-calculators/dog-blog/dog-daily-protein-calculator.html">
+
+<!-- ✅ 애드센스 (head 1회) -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9374368296307755"
+     crossorigin="anonymous"></script>
 
 <script type="application/ld+json">
 {
@@ -35,19 +51,6 @@
  ]
 }
 </script>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Dog Daily Protein Calculator | Estimate Daily Protein Needs</title>
-
-<meta name="description" content="Free Dog Daily Protein Calculator. Estimate how much protein your dog may need each day based on body weight and activity level.">
-
-<meta name="keywords" content="dog protein calculator,dog nutrition calculator,daily protein intake for dogs,dog feeding calculator">
-
-<meta name="robots" content="index,follow">
-
-<link rel="canonical" href="https://mmm071026246-lgtm.github.io/dog-blog/dog-daily-protein-calculator.html">
 
 <style>
 body{
@@ -96,17 +99,31 @@ ul{
 </style>
 
 </head>
+
 <body>
 
+<!-- ✅ 홈 링크 (dog-blog → 상위 root) -->
 <a href="../index.html">← Home</a>
 
 <h1>Dog Daily Protein Calculator</h1>
+
+<!-- ✅ 상단 광고 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9374368296307755"
+     data-ad-slot="4652042516"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <p>
 Use this free Dog Daily Protein Calculator to estimate how much protein your dog may need each day based on body weight and activity level.
 </p>
 
-<label for="weight">Dog Weight (kg)</label><br> <input type="number" id="weight" min="0.1" step="0.1">
+<label for="weight">Dog Weight (kg)</label><br>
+<input type="number" id="weight" min="0.1" step="0.1">
 
 <br><br>
 
@@ -129,7 +146,7 @@ Calculate Protein Needs
 <h2>Why Protein Matters</h2>
 
 <p>
-Protein supports muscle maintenance, growth, tissue repair, immune function, and overall health. Puppies, active dogs, and working dogs often require more protein than less active adult dogs.
+Protein supports muscle maintenance, growth, tissue repair, immune function, and overall health.
 </p>
 
 <h2>Factors That Affect Protein Requirements</h2>
@@ -142,68 +159,46 @@ Protein supports muscle maintenance, growth, tissue repair, immune function, and
 <li>Health conditions</li>
 </ul>
 
+<!-- ✅ 하단 광고 (중간 삽입) -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9374368296307755"
+     data-ad-slot="4652042516"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <h2>Related Calculators</h2>
 
 <ul>
-<li><a href="../dog-blog/dog-food-calculator.html">Dog Food Calculator</a></li>
-<li><a href="../dog-blog/dog-calorie-calculator.html">Dog Calorie Calculator</a></li>
-<li><a href="../dog-blog/dog-daily-water-calculator.html">Dog Daily Water Calculator</a></li>
-<li><a href="../dog-blog/dog-weight-gain-calculator.html">Dog Weight Gain Calculator</a></li>
-<li><a href="../dog-blog/dog-weight-loss-calculator.html">Dog Weight Loss Calculator</a></li>
+<li><a href="../dog/dog-food-calculator.html">Dog Food Calculator</a></li>
+<li><a href="../dog/dog-calorie-calculator.html">Dog Calorie Calculator</a></li>
+<li><a href="../dog/dog-water-intake-calculator.html">Dog Water Intake Calculator</a></li>
+<li><a href="../dog/dog-weight-gain-calculator.html">Dog Weight Gain Calculator</a></li>
+<li><a href="../dog/dog-weight-loss-calculator.html">Dog Weight Loss Calculator</a></li>
 </ul>
 
 <h2>Related Articles</h2>
 
 <ul>
+<li><a href="../dog-blog/signs-your-dog-is-overweight.html">Signs Your Dog Is Overweight</a></li>
 <li><a href="../dog-blog/how-much-food-should-i-feed-my-dog.html">How Much Food Should I Feed My Dog?</a></li>
 <li><a href="../dog-blog/how-much-water-should-a-dog-drink.html">How Much Water Should a Dog Drink?</a></li>
-<li><a href="../dog-blog/signs-your-dog-is-overweight.html">Signs Your Dog Is Overweight</a></li>
 </ul>
+
 
 <h2>Frequently Asked Questions</h2>
 
 <h3>How much protein does a dog need daily?</h3>
-<p>
-Protein requirements vary based on weight, age, and activity level. Active dogs typically need more protein than sedentary dogs.
-</p>
+<p>Protein requirements vary based on weight, age, and activity level.</p>
 
 <h3>Can dogs eat too much protein?</h3>
-<p>
-Most healthy dogs can tolerate high-protein diets, but nutritional needs vary by individual dog.
-</p>
+<p>Most healthy dogs can tolerate high-protein diets.</p>
 
 <h3>Is this calculator accurate?</h3>
-<p>
-This calculator provides a general estimate and should not replace veterinary nutritional advice.
-</p>
-
-<script>
-function calculateProtein(){
-
-    let weight =
-    parseFloat(document.getElementById("weight").value);
-
-    let factor =
-    parseFloat(document.getElementById("activity").value);
-
-    if(
-        isNaN(weight) ||
-        weight <= 0
-    ){
-        document.getElementById("result").innerHTML =
-        "Please enter a valid weight.";
-        return;
-    }
-
-    let protein =
-    weight * factor;
-
-    document.getElementById("result").innerHTML =
-    "Estimated Daily Protein Requirement: " +
-    protein.toFixed(1) +
-    " grams per day";
-}
-</script>
+<p>This calculator provides a general estimate only.</p>
 
 <footer>
 
@@ -220,6 +215,42 @@ function calculateProtein(){
 <p>
 © Pet Calculators. All rights reserved.
 </p>
+
+</footer>
+
+<script>
+function calculateProtein(){
+
+let weight = parseFloat(document.getElementById("weight").value);
+let factor = parseFloat(document.getElementById("activity").value);
+
+if(isNaN(weight) || weight <= 0){
+document.getElementById("result").innerHTML =
+"Please enter a valid weight.";
+return;
+}
+
+let protein = weight * factor;
+
+document.getElementById("result").innerHTML =
+"Estimated Daily Protein Requirement: " +
+protein.toFixed(1) + " grams per day";
+}
+</script>
+
+<footer>
+
+<hr>
+
+<p>
+<a href="../index.html">Home</a> |
+<a href="../calculators.html">Calculators</a> |
+<a href="../guides.html">Guides</a> |
+<a href="../about.html">About</a> |
+<a href="../contact.html">Contact</a>
+</p>
+
+<p>Pet Calculators. All rights reserved.</p>
 
 </footer>
 

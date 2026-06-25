@@ -1,6 +1,19 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dog Life Expectancy Calculator | Estimate Your Dog's Lifespan</title>
+
+<meta name="description" content="Free Dog Life Expectancy Calculator. Estimate your dog's lifespan and remaining years based on age and size category.">
+<meta name="robots" content="index,follow">
+
+<link rel="canonical" href="https://mmm071026246-lgtm.github.io/dog-blog/dog-life-expectancy-calculator.html">
+
+<!-- ✅ FAQ Schema -->
 
 <script type="application/ld+json">
 {
@@ -35,17 +48,6 @@
 }
 </script>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Dog Life Expectancy Calculator | Estimate Your Dog's Lifespan</title>
-
-<meta name="description" content="Free Dog Life Expectancy Calculator. Estimate your dog's lifespan and remaining years based on age and size category.">
-
-<meta name="robots" content="index,follow">
-
-<link rel="canonical" href="https://mmm071026246-lgtm.github.io/dog-blog/dog-life-expectancy-calculator.html">
-
 <style>
 body{
 font-family:Arial,sans-serif;
@@ -55,16 +57,36 @@ padding:20px;
 line-height:1.7;
 }
 
+h1{
+margin-bottom:10px;
+}
+
 input,select,button{
 padding:10px;
 font-size:16px;
 margin-top:10px;
+width:100%;
+max-width:300px;
+}
+
+button{
+cursor:pointer;
+background:#2563eb;
+color:white;
+border:none;
+}
+
+button:hover{
+background:#1e40af;
 }
 
 .result{
 margin-top:20px;
 font-size:20px;
 font-weight:bold;
+background:#f3f4f6;
+padding:15px;
+border-radius:8px;
 }
 
 a{
@@ -76,6 +98,7 @@ footer{
 margin-top:50px;
 text-align:center;
 color:#666;
+font-size:14px;
 }
 </style>
 
@@ -88,28 +111,24 @@ color:#666;
 
 <p>
 Estimate your dog's expected lifespan based on age and size category.
-Results are estimates only and individual dogs may live longer or shorter lives.
+Results are estimates only and may vary depending on breed, health, and lifestyle.
 </p>
 
-<label>Current Age (years)</label><br>
-<input type="number" id="age" min="0" step="0.1">
+<label>Current Age (years)</label><br> <input type="number" id="age" min="0" step="0.1" placeholder="e.g. 5">
 
 <br><br>
 
-<label>Dog Size</label><br>
+<label>Dog Size</label><br> <select id="size">
 
-<select id="size">
-<option value="15">Small Dog</option>
-<option value="13">Medium Dog</option>
-<option value="11">Large Dog</option>
-<option value="9">Giant Dog</option>
+<option value="15">Small Dog (Expected ~15 yrs)</option>
+<option value="13">Medium Dog (Expected ~13 yrs)</option>
+<option value="11">Large Dog (Expected ~11 yrs)</option>
+<option value="9">Giant Dog (Expected ~9 yrs)</option>
 </select>
 
 <br><br>
 
-<button onclick="calculateLife()">
-Estimate Lifespan
-</button>
+<button onclick="calculateLife()">Estimate Lifespan</button>
 
 <div id="result" class="result"></div>
 
@@ -125,65 +144,55 @@ Estimate Lifespan
 <h2>Related Calculators</h2>
 
 <ul>
-<li><a href="/dog-blog/dog-age-calculator.html">Dog Age Calculator</a></li>
-<li><a href="/dog-blog/dog-bmi-calculator.html">Dog BMI Calculator</a></li>
-<li><a href="/dog-blog/dog-weight-loss-calculator.html">Dog Weight Loss Calculator</a></li>
+<li><a href="../dog/dog-food-calculator.html">Dog Food Calculator</a></li>
+<li><a href="../dog/dog-calorie-calculator.html">Dog Calorie Calculator</a></li>
+<li><a href="../dog/dog-water-intake-calculator.html">Dog Water Intake Calculator</a></li>
+<li><a href="../dog/dog-weight-gain-calculator.html">Dog Weight Gain Calculator</a></li>
+<li><a href="../dog/dog-weight-loss-calculator.html">Dog Weight Loss Calculator</a></li>
 </ul>
 
-<h2>Related Guides</h2>
+<h2>Related Articles</h2>
 
 <ul>
-<li><a href="/dog-blog/how-to-calculate-dog-age.html">How to Calculate Dog Age</a></li>
-<li><a href="/dog-blog/signs-your-dog-is-overweight.html">Signs Your Dog Is Overweight</a></li>
-</ul>
-
-<h2>Explore More Pet Tools</h2>
-
-<ul>
-<li><a href="/dog-blog/index.html">Pet Calculators Home</a></li>
-<li><a href="/dog-blog/calculators.html">All Pet Calculators</a></li>
-<li><a href="/dog-blog/guides.html">Pet Care Guides</a></li>
+<li><a href="../dog-blog/signs-your-dog-is-overweight.html">Signs Your Dog Is Overweight</a></li>
+<li><a href="../dog-blog/how-much-food-should-i-feed-my-dog.html">How Much Food Should I Feed My Dog?</a></li>
+<li><a href="../dog-blog/how-much-water-should-a-dog-drink.html">How Much Water Should a Dog Drink?</a></li>
 </ul>
 
 <h2>Frequently Asked Questions</h2>
 
 <h3>How long do dogs usually live?</h3>
-<p>
-Most dogs live between 10 and 13 years, although lifespan varies by breed and size.
-</p>
+<p>Most dogs live between 10 and 13 years, depending on breed and size.</p>
 
 <h3>Do small dogs live longer than large dogs?</h3>
-<p>
-Yes. Small dog breeds generally live longer than large and giant breeds.
-</p>
+<p>Yes. Small dogs generally have longer lifespans than larger breeds.</p>
 
 <h3>Is this calculator accurate?</h3>
-<p>
-This calculator provides estimates only and should not be considered a prediction of actual lifespan.
-</p>
+<p>This tool provides estimates only and should not replace veterinary advice.</p>
 
 <script>
 function calculateLife(){
 
-let age=parseFloat(document.getElementById("age").value);
-let lifespan=parseFloat(document.getElementById("size").value);
+let age = parseFloat(document.getElementById("age").value);
+let lifespan = parseFloat(document.getElementById("size").value);
 
-if(isNaN(age)||age<0){
-document.getElementById("result").innerHTML=
-"Please enter a valid age.";
+if(isNaN(age) || age < 0){
+document.getElementById("result").innerHTML =
+"⚠️ Please enter a valid age.";
 return;
 }
 
-let remaining=lifespan-age;
+let remaining = lifespan - age;
 
-if(remaining<0){
-remaining=0;
+if(remaining <= 0){
+document.getElementById("result").innerHTML =
+"Estimated Lifespan: " + lifespan + " years<br>⚠️ Your dog has already reached or exceeded the average lifespan.";
+return;
 }
 
-document.getElementById("result").innerHTML=
-"Estimated Lifespan: "+lifespan+
-" years<br>Estimated Remaining Years: "+
-remaining.toFixed(1);
+document.getElementById("result").innerHTML =
+"Estimated Lifespan: <b>" + lifespan + " years</b><br>" +
+"Estimated Remaining Years: <b>" + remaining.toFixed(1) + " years</b>";
 }
 </script>
 
@@ -192,18 +201,14 @@ remaining.toFixed(1);
 <hr>
 
 <p>
-<a href="/dog-blog/index.html">Home</a> |
-<a href="/dog-blog/calculators.html">Calculators</a> |
-<a href="/dog-blog/guides.html">Guides</a> |
-<a href="/dog-blog/about.html">About Us</a> |
-<a href="/dog-blog/contact.html">Contact</a> |
-<a href="/dog-blog/privacy-policy.html">Privacy Policy</a> |
-<a href="/dog-blog/terms.html">Terms of Service</a>
+<a href="../index.html">Home</a> |
+<a href="../calculators.html">Calculators</a> |
+<a href="../guides.html">Guides</a> |
+<a href="../about.html">About</a> |
+<a href="../contact.html">Contact</a>
 </p>
 
-<p>
- Pet Calculators. All rights reserved.
-</p>
+<p>Pet Calculators. All rights reserved.</p>
 
 </footer>
 

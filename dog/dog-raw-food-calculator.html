@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dog Raw Food Calculator - Calculate Daily Raw Feeding Amount</title>
+
+<meta name="description" content="Free Dog Raw Food Calculator. Calculate how much raw food your dog should eat daily based on body weight and activity level.">
+
+<meta name="keywords" content="dog raw food calculator,raw feeding calculator,barf calculator,dog raw diet calculator">
+
+<meta name="robots" content="index,follow">
+
+<link rel="canonical" href="https://mmm071026246-lgtm.github.io/pet-calculators/dog/dog-raw-food-calculator.html">
+
+<meta property="og:title" content="Dog Raw Food Calculator">
+<meta property="og:description" content="Calculate daily raw food portions for your dog.">
+<meta property="og:type" content="website">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9374368296307755"
+crossorigin="anonymous"></script>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    max-width:800px;
+    margin:auto;
+    padding:20px;
+    line-height:1.6;
+}
+
+input,select,button{
+    padding:10px;
+    font-size:16px;
+    margin:5px 0;
+}
+
+button{
+    cursor:pointer;
+}
+
+.result{
+    margin-top:20px;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.ad-box{
+    margin:30px 0;
+    text-align:center;
+}
+
+a{
+    text-decoration:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<a href="../index.html">← Home</a>
+
+<h1>Dog Raw Food Calculator</h1>
+
+<div class="ad-box">
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-9374368296307755"
+data-ad-slot="4652042516"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+
+<p>
+Use this free raw feeding calculator to estimate how much raw food your dog should eat each day based on body weight and activity level.
+</p>
+
+<h2>Calculator</h2>
+
+<label>Dog Weight (lbs)</label><br> <input type="number" id="weight" min="1" step="0.1">
+
+<br>
+
+<label>Activity Level</label><br>
+
+<select id="activity">
+    <option value="0.02">Low Activity (2%)</option>
+    <option value="0.025" selected>Average Activity (2.5%)</option>
+    <option value="0.03">Active Dog (3%)</option>
+    <option value="0.035">Very Active Dog (3.5%)</option>
+</select>
+
+<br><br>
+
+<button onclick="calculateRawFood()">Calculate</button>
+
+<div class="result" id="result"></div>
+
+<div class="ad-box">
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-9374368296307755"
+data-ad-slot="4652042516"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+
+<h2>How the Calculator Works</h2>
+
+<p>
+Many raw feeding guidelines recommend feeding between 2% and 3.5% of a dog's body weight daily depending on age, activity level, metabolism, and body condition.
+</p>
+
+<h2>Typical Raw Feeding Ratios</h2>
+
+<ul>
+<li><strong>Low Activity:</strong> 2% of body weight</li>
+<li><strong>Average Activity:</strong> 2.5% of body weight</li>
+<li><strong>Active Dogs:</strong> 3% of body weight</li>
+<li><strong>Very Active Dogs:</strong> 3.5% of body weight</li>
+</ul>
+
+<h2>Example BARF Diet Breakdown</h2>
+
+<ul>
+<li>70% Muscle Meat</li>
+<li>10% Raw Edible Bone</li>
+<li>10% Organ Meat</li>
+<li>10% Fruits & Vegetables</li>
+</ul>
+
+<div class="ad-box">
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-9374368296307755"
+data-ad-slot="4652042516"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+
+<h2>Related Calculators</h2>
+
+<ul>
+<li><a href="dog-food-calculator.html">Dog Food Calculator</a></li>
+<li><a href="dog-calorie-calculator.html">Dog Calorie Calculator</a></li>
+<li><a href="dog-food-cost-calculator.html">Dog Food Cost Calculator</a></li>
+<li><a href="dog-water-intake-calculator.html">Dog Water Intake Calculator</a></li>
+<li><a href="dog-weight-loss-calculator.html">Dog Weight Loss Calculator</a></li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is a raw diet for dogs?</h3>
+<p>
+A raw diet typically consists of uncooked meat, bones, organs, and selected fruits or vegetables.
+</p>
+
+<h3>How much raw food should a dog eat daily?</h3>
+<p>
+Most adult dogs eat between 2% and 3.5% of their body weight per day depending on activity level and metabolism.
+</p>
+
+<h3>Is raw feeding suitable for all dogs?</h3>
+<p>
+Dietary needs vary between dogs. Consult a veterinarian before making significant dietary changes.
+</p>
+
+<h3>Can puppies eat raw food?</h3>
+<p>
+Puppies have different nutritional requirements and often require higher feeding percentages than adult dogs.
+</p>
+
+<h3>What is BARF?</h3>
+<p>
+BARF stands for Biologically Appropriate Raw Food or Bones and Raw Food, a popular raw feeding approach.
+</p>
+
+<footer>
+
+<hr>
+
+<p>
+<a href="../index.html">Home</a> |
+<a href="../calculators.html">Calculators</a> |
+<a href="../guides.html">Guides</a> |
+<a href="../about.html">About</a> |
+<a href="../contact.html">Contact</a>
+</p>
+
+<p>Pet Calculators. All rights reserved.</p>
+
+</footer>
+
+<script>
+
+function calculateRawFood(){
+
+    let weight = parseFloat(document.getElementById("weight").value);
+    let activity = parseFloat(document.getElementById("activity").value);
+
+    if(isNaN(weight) || weight <= 0){
+
+        document.getElementById("result").innerHTML =
+        "Please enter a valid weight.";
+
+        return;
+    }
+
+    let dailyFood = weight * activity;
+    let weeklyFood = dailyFood * 7;
+    let monthlyFood = dailyFood * 30;
+
+    let muscleMeat = dailyFood * 0.70;
+    let bone = dailyFood * 0.10;
+    let organ = dailyFood * 0.10;
+    let produce = dailyFood * 0.10;
+
+    document.getElementById("result").innerHTML =
+    `
+    Daily Raw Food: ${dailyFood.toFixed(2)} lbs
+    <br><br>
+
+    Weekly Raw Food: ${weeklyFood.toFixed(2)} lbs
+    <br><br>
+
+    Monthly Raw Food: ${monthlyFood.toFixed(2)} lbs
+    <br><br>
+
+    Suggested Daily Breakdown:
+    <br>
+    Muscle Meat: ${muscleMeat.toFixed(2)} lbs
+    <br>
+    Raw Bone: ${bone.toFixed(2)} lbs
+    <br>
+    Organ Meat: ${organ.toFixed(2)} lbs
+    <br>
+    Fruits & Vegetables: ${produce.toFixed(2)} lbs
+    `;
+}
+
+</script>
+
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"WebApplication",
+ "name":"Dog Raw Food Calculator",
+ "applicationCategory":"UtilityApplication",
+ "operatingSystem":"Any"
+}
+</script>
+
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"FAQPage",
+ "mainEntity":[
+  {
+   "@type":"Question",
+   "name":"How much raw food should a dog eat daily?",
+   "acceptedAnswer":{
+    "@type":"Answer",
+    "text":"Most adult dogs eat between 2% and 3.5% of their body weight daily."
+   }
+  },
+  {
+   "@type":"Question",
+   "name":"What is BARF?",
+   "acceptedAnswer":{
+    "@type":"Answer",
+    "text":"BARF stands for Biologically Appropriate Raw Food or Bones and Raw Food."
+   }
+  }
+ ]
+}
+</script>
+
+</body>
+</html>

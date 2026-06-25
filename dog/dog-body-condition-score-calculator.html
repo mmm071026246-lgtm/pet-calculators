@@ -3,6 +3,11 @@
 <html lang="en">
 <head>
 
+<!-- ✅ 애드센스 필수 (한 번만) -->
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9374368296307755"
+crossorigin="anonymous"></script>
+
 <script type="application/ld+json">
 {
  "@context":"https://schema.org",
@@ -58,40 +63,36 @@ body{
     line-height:1.7;
     color:#333;
 }
-
 select,button{
     padding:10px;
     font-size:16px;
     margin-top:10px;
 }
-
-button{
-    cursor:pointer;
-}
-
+button{ cursor:pointer; }
 .result{
     margin-top:20px;
     font-size:22px;
     font-weight:bold;
 }
-
 a{
     text-decoration:none;
     color:#2563eb;
 }
-
-a:hover{
-    text-decoration:underline;
-}
-
+a:hover{ text-decoration:underline; }
 footer{
     margin-top:50px;
     text-align:center;
     color:#666;
 }
+ul{ padding-left:20px; }
 
-ul{
-    padding-left:20px;
+/* 광고 */
+.ad-box{
+    margin:25px 0;
+    padding:20px;
+    border:1px dashed #ccc;
+    text-align:center;
+    background:#fafafa;
 }
 </style>
 
@@ -105,6 +106,18 @@ ul{
 <p>
 Use this free Dog Body Condition Score (BCS) Calculator to estimate your dog's weight status. Veterinarians commonly use the 9-point BCS system to evaluate body fat and overall body condition.
 </p>
+
+<!-- 🔥 상단 광고 -->
+
+<div class="ad-box">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9374368296307755"
+     data-ad-slot="4652042516"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
 
 <label for="bcs">Select Body Condition Score (1-9)</label><br>
 
@@ -123,11 +136,21 @@ Use this free Dog Body Condition Score (BCS) Calculator to estimate your dog's w
 
 <br><br>
 
-<button onclick="calculateBCS()">
-Evaluate Body Condition
-</button>
+<button onclick="calculateBCS()">Evaluate Body Condition</button>
 
 <div class="result" id="result"></div>
+
+<!-- 🔥 결과 광고 -->
+
+<div class="ad-box">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9374368296307755"
+     data-ad-slot="4652042516"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
 
 <h2>Understanding Body Condition Scores</h2>
 
@@ -142,6 +165,18 @@ The Body Condition Score system evaluates a dog's body fat using visible and phy
 <li>BCS 8-9: Obese</li>
 </ul>
 
+<!-- 🔥 중간 광고 -->
+
+<div class="ad-box">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9374368296307755"
+     data-ad-slot="4652042516"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
 <h2>How to Check Your Dog's Body Condition</h2>
 
 <ul>
@@ -154,11 +189,11 @@ The Body Condition Score system evaluates a dog's body fat using visible and phy
 <h2>Related Calculators</h2>
 
 <ul>
-<li><a href="dog-weight-loss-calculator.html">Dog Weight Loss Calculator</a></li>
-<li><a href="dog-bmi-calculator.html">Dog BMI Calculator</a></li>
-<li><a href="dog-ideal-weight-calculator.html">Ideal Dog Weight Calculator</a></li>
-<li><a href="dog-calorie-calculator.html">Dog Calorie Calculator</a></li>
-<li><a href="dog-food-calculator.html">Dog Food Calculator</a></li>
+<li><a href="../dog/dog-food-calculator.html">Dog Food Calculator</a></li>
+<li><a href="../dog/dog-calorie-calculator.html">Dog Calorie Calculator</a></li>
+<li><a href="../dog/dog-water-intake-calculator.html">Dog Water Intake Calculator</a></li>
+<li><a href="../dog/dog-weight-gain-calculator.html">Dog Weight Gain Calculator</a></li>
+<li><a href="../dog/dog-weight-loss-calculator.html">Dog Weight Loss Calculator</a></li>
 </ul>
 
 <h2>Related Articles</h2>
@@ -168,6 +203,11 @@ The Body Condition Score system evaluates a dog's body fat using visible and phy
 <li><a href="../dog-blog/how-much-food-should-i-feed-my-dog.html">How Much Food Should I Feed My Dog?</a></li>
 <li><a href="../dog-blog/how-much-water-should-a-dog-drink.html">How Much Water Should a Dog Drink?</a></li>
 </ul>
+
+<h2>Helpful Tips</h2>
+<p>
+Explore our related tools and guides to better manage your dog’s health, diet, and daily routine.
+</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -186,11 +226,22 @@ Most veterinarians consider scores of 4 or 5 on a 9-point scale to represent an 
 No. This calculator provides general guidance only and should not replace professional veterinary evaluation.
 </p>
 
+<!-- 🔥 하단 광고 -->
+
+<div class="ad-box">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9374368296307755"
+     data-ad-slot="4652042516"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
 <script>
 function calculateBCS(){
 
-let score =
-parseInt(document.getElementById("bcs").value);
+let score = parseInt(document.getElementById("bcs").value);
 
 if(isNaN(score)){
 document.getElementById("result").innerHTML =
@@ -200,25 +251,13 @@ return;
 
 let category="";
 
-if(score <= 3){
-category="Underweight";
-}
-else if(score <= 5){
-category="Ideal Weight";
-}
-else if(score <= 7){
-category="Overweight";
-}
-else{
-category="Obese";
-}
+if(score <= 3){ category="Underweight"; }
+else if(score <= 5){ category="Ideal Weight"; }
+else if(score <= 7){ category="Overweight"; }
+else{ category="Obese"; }
 
 document.getElementById("result").innerHTML =
-"Body Condition Score: " +
-score +
-"/9<br>" +
-"Assessment: " +
-category;
+"Body Condition Score: " + score + "/9<br>Assessment: " + category;
 }
 </script>
 
@@ -234,9 +273,7 @@ category;
 <a href="../contact.html">Contact</a>
 </p>
 
-<p>
- Pet Calculators. All rights reserved.
-</p>
+<p>Pet Calculators. All rights reserved.</p>
 
 </footer>
 

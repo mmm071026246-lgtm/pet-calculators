@@ -3,6 +3,11 @@
 <html lang="en">
 <head>
 
+<!-- ✅ 애드센스 공통 스크립트 (한 번만) -->
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9374368296307755"
+crossorigin="anonymous"></script>
+
 <script type="application/ld+json">
 {
  "@context":"https://schema.org",
@@ -54,12 +59,21 @@ max-width:800px;
 margin:auto;
 padding:20px;
 line-height:1.7;
+color:#333;
+}
+
+h1,h2{
+color:#222;
 }
 
 input,button{
 padding:10px;
 font-size:16px;
 margin-top:10px;
+}
+
+button{
+cursor:pointer;
 }
 
 .result{
@@ -72,6 +86,15 @@ a{
 text-decoration:none;
 color:#2563eb;
 }
+
+a:hover{
+text-decoration:underline;
+}
+
+.ad-box{
+margin:30px 0;
+text-align:center;
+}
 </style>
 
 </head>
@@ -80,6 +103,18 @@ color:#2563eb;
 <a href="/dog-blog/index.html">← Home</a>
 
 <h1>Dog Resting Energy Requirement (RER) Calculator</h1>
+
+<!-- ✅ 상단 광고 -->
+
+<div class="ad-box">
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-9374368296307755"
+data-ad-slot="4652042516"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
 
 <p>
 Calculate your dog's estimated Resting Energy Requirement (RER).
@@ -95,6 +130,18 @@ Calculate RER
 </button>
 
 <div id="result" class="result"></div>
+
+<!-- ✅ 중간 광고 -->
+
+<div class="ad-box">
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-9374368296307755"
+data-ad-slot="4652042516"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
 
 <h2>What Is RER?</h2>
 
@@ -112,19 +159,32 @@ RER = 70 × (Body Weight in kg)<sup>0.75</sup>
 <h2>Related Calculators</h2>
 
 <ul>
-<li><a href="/dog-blog/dog-calorie-calculator.html">Dog Calorie Calculator</a></li>
-<li><a href="/dog-blog/dog-food-calculator.html">Dog Food Calculator</a></li>
-<li><a href="/dog-blog/dog-weight-loss-calculator.html">Dog Weight Loss Calculator</a></li>
-<li><a href="/dog-blog/dog-bmi-calculator.html">Dog BMI Calculator</a></li>
-<li><a href="/dog-blog/ideal-dog-weight-calculator.html">Ideal Dog Weight Calculator</a></li>
+<li><a href="../dog/dog-food-calculator.html">Dog Food Calculator</a></li>
+<li><a href="../dog/dog-calorie-calculator.html">Dog Calorie Calculator</a></li>
+<li><a href="../dog/dog-water-intake-calculator.html">Dog Water Intake Calculator</a></li>
+<li><a href="../dog/dog-weight-gain-calculator.html">Dog Weight Gain Calculator</a></li>
+<li><a href="../dog/dog-weight-loss-calculator.html">Dog Weight Loss Calculator</a></li>
 </ul>
 
-<h2>Related Guides</h2>
+<h2>Related Articles</h2>
 
 <ul>
-<li><a href="/dog-blog/how-much-food-should-i-feed-my-dog.html">How Much Food Should I Feed My Dog?</a></li>
-<li><a href="/dog-blog/signs-your-dog-is-overweight.html">Signs Your Dog Is Overweight</a></li>
+<li><a href="../dog-blog/signs-your-dog-is-overweight.html">Signs Your Dog Is Overweight</a></li>
+<li><a href="../dog-blog/how-much-food-should-i-feed-my-dog.html">How Much Food Should I Feed My Dog?</a></li>
+<li><a href="../dog-blog/how-much-water-should-a-dog-drink.html">How Much Water Should a Dog Drink?</a></li>
 </ul>
+
+<!-- ✅ 하단 광고 -->
+
+<div class="ad-box">
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-9374368296307755"
+data-ad-slot="4652042516"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
 
 <script>
 function calculateRER(){
@@ -143,6 +203,24 @@ document.getElementById("result").innerHTML=
 "Estimated RER: "+rer.toFixed(0)+" kcal/day";
 }
 </script>
+
+<hr>
+
+<footer>
+
+<hr>
+
+<p>
+<a href="../index.html">Home</a> |
+<a href="../calculators.html">Calculators</a> |
+<a href="../guides.html">Guides</a> |
+<a href="../about.html">About</a> |
+<a href="../contact.html">Contact</a>
+</p>
+
+<p>Pet Calculators. All rights reserved.</p>
+
+</footer>
 
 </body>
 </html>

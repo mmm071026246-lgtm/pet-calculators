@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dog Quality of Life Calculator - Assess Your Dog's Well-Being</title>
+
+<meta name="description" content="Free Dog Quality of Life Calculator. Evaluate your dog's comfort, mobility, appetite, and overall well-being using a simple quality of life assessment.">
+
+<meta name="keywords" content="dog quality of life calculator,senior dog quality of life,dog wellness assessment,dog health score">
+
+<meta name="robots" content="index,follow">
+
+<link rel="canonical" href="https://mmm071026246-lgtm.github.io/pet-calculators/dog/dog-quality-of-life-calculator.html">
+
+<meta property="og:title" content="Dog Quality of Life Calculator">
+<meta property="og:description" content="Assess your dog's overall quality of life using a simple scoring system.">
+<meta property="og:type" content="website">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9374368296307755"
+crossorigin="anonymous"></script>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    max-width:800px;
+    margin:auto;
+    padding:20px;
+    line-height:1.6;
+}
+
+select,button{
+    padding:10px;
+    font-size:16px;
+    margin:5px 0;
+}
+
+button{
+    cursor:pointer;
+}
+
+.result{
+    margin-top:20px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.ad-box{
+    margin:30px 0;
+    text-align:center;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<a href="../index.html">← Home</a>
+
+<h1>Dog Quality of Life Calculator</h1>
+
+<div class="ad-box">
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-9374368296307755"
+data-ad-slot="4652042516"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+
+<p>
+Use this quality of life calculator to evaluate your dog's overall well-being based on appetite, mobility, comfort, happiness, hygiene, and daily function.
+</p>
+
+<h2>Assessment</h2>
+
+<label>Appetite</label> <select id="appetite">
+
+<option value="0">Poor</option>
+<option value="1">Fair</option>
+<option value="2">Good</option>
+<option value="3">Excellent</option>
+</select>
+
+<label>Mobility</label> <select id="mobility">
+
+<option value="0">Unable to move comfortably</option>
+<option value="1">Limited</option>
+<option value="2">Moderate</option>
+<option value="3">Normal</option>
+</select>
+
+<label>Comfort / Pain Level</label> <select id="comfort">
+
+<option value="0">Frequent discomfort</option>
+<option value="1">Often uncomfortable</option>
+<option value="2">Generally comfortable</option>
+<option value="3">Comfortable</option>
+</select>
+
+<label>Happiness</label> <select id="happiness">
+
+<option value="0">Rarely engaged</option>
+<option value="1">Sometimes engaged</option>
+<option value="2">Usually engaged</option>
+<option value="3">Happy and interactive</option>
+</select>
+
+<label>Hygiene</label> <select id="hygiene">
+
+<option value="0">Cannot maintain hygiene</option>
+<option value="1">Needs significant help</option>
+<option value="2">Needs some help</option>
+<option value="3">Maintains hygiene well</option>
+</select>
+
+<label>Daily Activities</label> <select id="activities">
+
+<option value="0">Rarely participates</option>
+<option value="1">Limited participation</option>
+<option value="2">Participates regularly</option>
+<option value="3">Fully active</option>
+</select>
+
+<br><br>
+
+<button onclick="calculateQOL()">Calculate</button>
+
+<div class="result" id="result"></div>
+
+<div class="ad-box">
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-9374368296307755"
+data-ad-slot="4652042516"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+
+<h2>Understanding Quality of Life</h2>
+
+<p>
+Quality of life assessments are commonly used by pet owners and veterinarians to monitor comfort, mobility, enjoyment, and daily functioning, particularly for senior dogs or dogs with chronic illnesses.
+</p>
+
+<h2>How Scores Are Interpreted</h2>
+
+<ul>
+<li><strong>15–18:</strong> Good quality of life</li>
+<li><strong>10–14:</strong> Moderate quality of life</li>
+<li><strong>0–9:</strong> Reduced quality of life</li>
+</ul>
+
+<p>
+This tool is for educational purposes only and should not replace professional veterinary advice.
+</p>
+
+<h2>Related Calculators</h2>
+
+<ul>
+<li><a href="senior-dog-age-calculator.html">Senior Dog Age Calculator</a></li>
+<li><a href="dog-age-calculator.html">Dog Age Calculator</a></li>
+<li><a href="dog-calorie-calculator.html">Dog Calorie Calculator</a></li>
+<li><a href="dog-water-intake-calculator.html">Dog Water Intake Calculator</a></li>
+<li><a href="dog-ideal-weight-calculator.html">Dog Ideal Weight Calculator</a></li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>What is a quality of life assessment?</h3>
+<p>
+It is a structured way to evaluate a dog's comfort, happiness, appetite, and ability to perform daily activities.
+</p>
+
+<h3>Can this calculator determine medical treatment?</h3>
+<p>
+No. It is intended as an educational assessment and not a medical diagnosis.
+</p>
+
+<h3>Who should use this calculator?</h3>
+<p>
+Owners of senior dogs, dogs with chronic illness, or dogs recovering from injury may find it useful.
+</p>
+
+<hr>
+
+<footer>
+
+<p>
+<a href="../index.html">Home</a> |
+<a href="../calculators.html">Calculators</a> |
+<a href="../guides.html">Guides</a> |
+<a href="../about.html">About</a> |
+<a href="../contact.html">Contact</a>
+</p>
+
+<p>Pet Calculators. All rights reserved.</p>
+
+</footer>
+
+<script>
+
+function calculateQOL(){
+
+    let total =
+    parseInt(document.getElementById("appetite").value) +
+    parseInt(document.getElementById("mobility").value) +
+    parseInt(document.getElementById("comfort").value) +
+    parseInt(document.getElementById("happiness").value) +
+    parseInt(document.getElementById("hygiene").value) +
+    parseInt(document.getElementById("activities").value);
+
+    let assessment;
+
+    if(total >= 15){
+        assessment = "Good Quality of Life";
+    }
+    else if(total >= 10){
+        assessment = "Moderate Quality of Life";
+    }
+    else{
+        assessment = "Reduced Quality of Life";
+    }
+
+    document.getElementById("result").innerHTML =
+    `
+    Total Score: ${total} / 18
+    <br><br>
+    Assessment: ${assessment}
+    <br><br>
+    This assessment is informational only and does not replace veterinary advice.
+    `;
+}
+
+</script>
+
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"WebApplication",
+ "name":"Dog Quality of Life Calculator",
+ "applicationCategory":"UtilityApplication",
+ "operatingSystem":"Any"
+}
+</script>
+
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"FAQPage",
+ "mainEntity":[
+  {
+   "@type":"Question",
+   "name":"What is a quality of life assessment?",
+   "acceptedAnswer":{
+    "@type":"Answer",
+    "text":"It evaluates a dog's comfort, appetite, mobility, and daily well-being."
+   }
+  },
+  {
+   "@type":"Question",
+   "name":"Can this calculator replace veterinary advice?",
+   "acceptedAnswer":{
+    "@type":"Answer",
+    "text":"No. This tool is educational and should not replace professional veterinary care."
+   }
+  }
+ ]
+}
+</script>
+
+</body>
+</html>

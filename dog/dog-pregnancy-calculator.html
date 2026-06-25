@@ -1,97 +1,29 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Dog Pregnancy Calculator - Estimate Your Dog's Due Date</title>
+<title>Dog Pregnancy Calculator | Estimate Your Dog's Due Date</title>
 
-<meta name="description" content="Free Dog Pregnancy Calculator. Estimate your dog's due date based on the mating date and learn about canine pregnancy timelines.">
+<meta name="description" content="Free Dog Pregnancy Calculator. Estimate your dog's due date based on mating date and track pregnancy timeline.">
 
-<meta name="keywords" content="dog pregnancy calculator,dog due date calculator,canine pregnancy,puppy due date,dog gestation calculator">
+<meta name="keywords" content="dog pregnancy calculator,dog due date calculator,canine gestation,dog pregnancy timeline">
 
 <meta name="robots" content="index,follow">
 
 <link rel="canonical" href="https://mmm071026246-lgtm.github.io/dog-blog/dog-pregnancy-calculator.html">
 
+<!-- ✅ Open Graph -->
+
 <meta property="og:title" content="Dog Pregnancy Calculator">
-<meta property="og:description" content="Estimate your dog's due date based on the mating date.">
+<meta property="og:description" content="Estimate your dog's due date and pregnancy timeline.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://mmm071026246-lgtm.github.io/dog-blog/dog-pregnancy-calculator.html">
 
-<style>
-body{
-    font-family:Arial,sans-serif;
-    max-width:800px;
-    margin:auto;
-    padding:20px;
-    line-height:1.7;
-    color:#333;
-}
-
-h1,h2,h3{
-    color:#222;
-}
-
-input,button{
-    padding:10px;
-    font-size:16px;
-    margin-top:10px;
-}
-
-button{
-    cursor:pointer;
-    background:#2563eb;
-    color:white;
-    border:none;
-    border-radius:6px;
-}
-
-button:hover{
-    opacity:0.9;
-}
-
-.result{
-    margin-top:20px;
-    padding:15px;
-    background:#f4f8ff;
-    border-left:5px solid #2563eb;
-    font-size:22px;
-    font-weight:bold;
-    border-radius:6px;
-}
-
-a{
-    color:#2563eb;
-    text-decoration:none;
-}
-
-a:hover{
-    text-decoration:underline;
-}
-
-.related-box{
-    background:#f8f9fa;
-    padding:15px;
-    border-radius:8px;
-    margin-top:20px;
-}
-
-ul{
-    padding-left:20px;
-}
-
-.faq-item{
-    margin-bottom:20px;
-}
-
-.note{
-    background:#fff8e1;
-    padding:15px;
-    border-left:5px solid #f59e0b;
-    border-radius:6px;
-}
-</style>
+<!-- ✅ FAQ Schema -->
 
 <script type="application/ld+json">
 {
@@ -103,7 +35,7 @@ ul{
    "name":"How long are dogs pregnant?",
    "acceptedAnswer":{
     "@type":"Answer",
-    "text":"Most dogs are pregnant for approximately 63 days from conception."
+    "text":"Most dogs are pregnant for about 63 days, with a normal range between 58 and 68 days."
    }
   },
   {
@@ -111,7 +43,7 @@ ul{
    "name":"Can a dog's due date vary?",
    "acceptedAnswer":{
     "@type":"Answer",
-    "text":"Yes. Delivery may occur a few days earlier or later depending on breed, litter size, and individual factors."
+    "text":"Yes, delivery may vary depending on breed, litter size, and individual health."
    }
   },
   {
@@ -119,12 +51,74 @@ ul{
    "name":"Is this calculator accurate?",
    "acceptedAnswer":{
     "@type":"Answer",
-    "text":"This calculator provides an estimate based on average gestation length and should not replace veterinary advice."
+    "text":"This tool provides an estimate and should not replace professional veterinary advice."
    }
   }
  ]
 }
 </script>
+
+<style>
+body{
+font-family:Arial,sans-serif;
+max-width:800px;
+margin:auto;
+padding:20px;
+line-height:1.7;
+color:#333;
+}
+
+h1{margin-bottom:10px;}
+
+input,button{
+padding:10px;
+font-size:16px;
+margin-top:10px;
+width:100%;
+max-width:300px;
+}
+
+button{
+background:#2563eb;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1e40af;
+}
+
+.result{
+margin-top:20px;
+padding:15px;
+background:#f3f4f6;
+border-radius:8px;
+font-size:20px;
+font-weight:bold;
+}
+
+.note{
+background:#fff8e1;
+padding:15px;
+border-left:5px solid #f59e0b;
+margin-top:20px;
+border-radius:6px;
+}
+
+a{
+color:#2563eb;
+text-decoration:none;
+}
+
+footer{
+margin-top:50px;
+text-align:center;
+color:#666;
+font-size:14px;
+}
+</style>
 
 </head>
 
@@ -135,129 +129,113 @@ ul{
 <h1>Dog Pregnancy Calculator</h1>
 
 <p>
-Use this free dog pregnancy calculator to estimate your dog's due date based on the mating date. Most canine pregnancies last approximately 63 days, although some variation is normal.
+Estimate your dog's due date based on mating date. 
+The average canine pregnancy lasts about <strong>63 days</strong>, 
+with a normal range between <strong>58–68 days</strong>.
 </p>
 
-<label for="matingDate"><strong>Mating Date:</strong></label>
-<br>
+<label>Mating Date</label><br> <input type="date" id="matingDate">
 
-<input type="date" id="matingDate">
+<br><br>
 
-<br>
+<button onclick="calculateDueDate()">Calculate Due Date</button>
 
-<button onclick="calculateDueDate()">
-Calculate Due Date
-</button>
-
-<div class="result" id="result"></div>
-
-<h2>How Long Are Dogs Pregnant?</h2>
-
-<p>
-The average dog pregnancy lasts around 63 days from conception. Depending on breed, litter size, and individual factors, the delivery date may vary by several days.
-</p>
+<div id="result" class="result"></div>
 
 <h2>Dog Pregnancy Timeline</h2>
 
 <ul>
-<li><strong>Weeks 1-2:</strong> Fertilization and early embryo development.</li>
-<li><strong>Weeks 3-4:</strong> Pregnancy can often be confirmed by a veterinarian.</li>
-<li><strong>Weeks 5-6:</strong> Puppies develop rapidly and weight gain becomes noticeable.</li>
-<li><strong>Weeks 7-8:</strong> Nesting behavior may begin.</li>
-<li><strong>Week 9:</strong> Delivery is expected.</li>
+<li><strong>Weeks 1–2:</strong> Fertilization and early development</li>
+<li><strong>Weeks 3–4:</strong> Embryo implantation</li>
+<li><strong>Weeks 5–6:</strong> Rapid fetal growth</li>
+<li><strong>Weeks 7–8:</strong> Physical changes and nesting</li>
+<li><strong>Week 9:</strong> Whelping (birth) may occur</li>
 </ul>
 
-<h2>Pregnancy Care Tips</h2>
+<h2>How to Care for a Pregnant Dog</h2>
 
 <p>
-Provide high-quality nutrition, regular veterinary care, and a stress-free environment throughout pregnancy. Always contact your veterinarian if you notice unusual symptoms.
+Provide balanced nutrition, avoid stress, and schedule regular veterinary checkups.
+Watch for signs such as appetite changes, nesting behavior, and temperature drop before labor.
 </p>
 
 <div class="note">
-<strong>Important:</strong> This calculator provides an estimate only and should not replace professional veterinary advice.
+⚠️ This calculator provides an estimate only and should not replace veterinary advice.
 </div>
-
-<hr>
 
 <h2>Frequently Asked Questions</h2>
 
-<div class="faq-item">
 <h3>How long are dogs pregnant?</h3>
-<p>
-Most dogs are pregnant for approximately 63 days from conception.
-</p>
-</div>
+<p>Most dogs are pregnant for about 63 days, with a range of 58–68 days.</p>
 
-<div class="faq-item">
-<h3>Can the due date be inaccurate?</h3>
-<p>
-Yes. Actual delivery dates may vary by several days depending on the individual dog.
-</p>
-</div>
+<h3>Can the due date vary?</h3>
+<p>Yes, actual delivery may vary based on breed and individual conditions.</p>
 
-<div class="faq-item">
-<h3>When should I see a veterinarian?</h3>
-<p>
-Regular veterinary checkups are recommended throughout pregnancy, especially if complications are suspected.
-</p>
-</div>
-
-<div class="faq-item">
-<h3>Does breed size affect pregnancy length?</h3>
-<p>
-Gestation length is generally similar across breeds, although minor variations can occur.
-</p>
-</div>
-
-<hr>
-
-<div class="related-box">
+<h3>When should I contact a vet?</h3>
+<p>If your dog shows unusual symptoms or passes the expected due date significantly.</p>
 
 <h2>Related Calculators</h2>
 
 <ul>
-<li><a href="/dog-blog/dog-pregnancy-timeline.html">Dog Pregnancy Timeline</a></li>
-<li><a href="/dog-blog/dog-age-calculator.html">Dog Age Calculator</a></li>
-<li><a href="/dog-blog/dog-food-calculator.html">Dog Food Calculator</a></li>
-<li><a href="/dog-blog/dog-water-intake-calculator.html">Dog Water Intake Calculator</a></li>
+<li><a href="../dog/dog-food-calculator.html">Dog Food Calculator</a></li>
+<li><a href="../dog/dog-calorie-calculator.html">Dog Calorie Calculator</a></li>
+<li><a href="../dog/dog-water-intake-calculator.html">Dog Water Intake Calculator</a></li>
+<li><a href="../dog/dog-weight-gain-calculator.html">Dog Weight Gain Calculator</a></li>
+<li><a href="../dog/dog-weight-loss-calculator.html">Dog Weight Loss Calculator</a></li>
 </ul>
-
-</div>
-
-<div class="related-box">
 
 <h2>Related Articles</h2>
 
 <ul>
-<li><a href="/dog-blog/puppy-growth-stages-month-by-month.html">Puppy Growth Stages Month by Month</a></li>
-<li><a href="/dog-blog/how-much-food-should-i-feed-my-dog.html">How Much Food Should I Feed My Dog?</a></li>
-<li><a href="/dog-blog/how-much-water-should-a-dog-drink.html">How Much Water Should a Dog Drink?</a></li>
-<li><a href="/dog-blog/signs-your-dog-is-overweight.html">Signs Your Dog Is Overweight</a></li>
+<li><a href="../dog-blog/signs-your-dog-is-overweight.html">Signs Your Dog Is Overweight</a></li>
+<li><a href="../dog-blog/how-much-food-should-i-feed-my-dog.html">How Much Food Should I Feed My Dog?</a></li>
+<li><a href="../dog-blog/how-much-water-should-a-dog-drink.html">How Much Water Should a Dog Drink?</a></li>
 </ul>
-
-</div>
 
 <script>
 function calculateDueDate(){
 
-    const matingDate =
-    document.getElementById("matingDate").value;
+let matingDate = document.getElementById("matingDate").value;
 
-    if(!matingDate){
-        document.getElementById("result").innerHTML =
-        "Please select a mating date.";
-        return;
-    }
+if(!matingDate){
+document.getElementById("result").innerHTML =
+"⚠️ Please select a mating date.";
+return;
+}
 
-    let date = new Date(matingDate);
+let base = new Date(matingDate);
 
-    date.setDate(date.getDate() + 63);
+let due = new Date(base);
+due.setDate(base.getDate() + 63);
 
-    document.getElementById("result").innerHTML =
-    "🐶 Estimated Due Date: <br>" +
-    date.toDateString();
+let early = new Date(base);
+early.setDate(base.getDate() + 58);
+
+let late = new Date(base);
+late.setDate(base.getDate() + 68);
+
+document.getElementById("result").innerHTML =
+"🐶 Estimated Due Date:<br><b>" + due.toDateString() + "</b><br><br>" +
+"📅 Expected Range:<br>" +
+early.toDateString() + " ~ " + late.toDateString();
 }
 </script>
+
+<footer>
+
+<hr>
+
+<p>
+<a href="../index.html">Home</a> |
+<a href="../calculators.html">Calculators</a> |
+<a href="../guides.html">Guides</a> |
+<a href="../about.html">About</a> |
+<a href="../contact.html">Contact</a>
+</p>
+
+<p>Pet Calculators. All rights reserved.</p>
+
+</footer>
 
 </body>
 </html>

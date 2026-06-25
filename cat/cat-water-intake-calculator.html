@@ -13,12 +13,16 @@
 
 <meta name="robots" content="index,follow">
 
-<link rel="canonical" href="https://mmm071026246-lgtm.github.io/pet-calculators/cat-water-intake-calculator.html">
+<link rel="canonical" href="https://mmm071026246-lgtm.github.io/pet-calculators/cat/cat-water-intake-calculator.html">
 
 <meta property="og:title" content="Cat Water Intake Calculator">
 <meta property="og:description" content="Estimate your cat's daily water requirements based on body weight.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://mmm071026246-lgtm.github.io/pet-calculators/cat-water-intake-calculator.html">
+<meta property="og:url" content="https://mmm071026246-lgtm.github.io/pet-calculators/cat/cat-water-intake-calculator.html">
+
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9374368296307755"
+crossorigin="anonymous"></script>
 
 <style>
 body{
@@ -41,6 +45,10 @@ input,button{
     font-weight:bold;
 }
 
+.ad-container{
+    margin:30px 0;
+}
+
 a{
     text-decoration:none;
 }
@@ -53,16 +61,29 @@ ul{
 
 <body>
 
-<a href="index.html">← Home</a>
+<a href="../index.html">← Home</a>
 
 <h1>Cat Water Intake Calculator</h1>
+
+<!-- Ad #1 -->
+<div class="ad-container">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9374368296307755"
+     data-ad-slot="4652042516"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
 
 <p>
 Estimate your cat's daily water needs based on body weight.
 Water requirements may vary depending on diet, activity level, age, environment, and health conditions.
 </p>
 
-<label>Cat Weight (kg):</label><br>
+<label for="weight">Cat Weight (kg):</label><br>
 <input type="number" id="weight" min="0.1" step="0.1">
 
 <br>
@@ -70,6 +91,19 @@ Water requirements may vary depending on diet, activity level, age, environment,
 <button onclick="calculateWater()">Calculate Water Intake</button>
 
 <div class="result" id="result"></div>
+
+<!-- Ad #2 -->
+<div class="ad-container">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9374368296307755"
+     data-ad-slot="4652042516"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
 
 <h2>Daily Water Requirements</h2>
 
@@ -106,18 +140,28 @@ This calculator provides a general estimate only. Consult your veterinarian if y
 <li><a href="cat-food-calculator.html">Cat Food Calculator</a></li>
 <li><a href="cat-age-calculator.html">Cat Age Calculator</a></li>
 <li><a href="cat-pregnancy-calculator.html">Cat Pregnancy Calculator</a></li>
-<li><a href="dog-water-intake-calculator.html">Dog Water Intake Calculator</a></li>
-<li><a href="dog-food-calculator.html">Dog Food Calculator</a></li>
-<li><a href="dog-age-calculator.html">Dog Age Calculator</a></li>
 </ul>
 
 <h2>Related Articles</h2>
 
 <ul>
-<li><a href="how-much-water-should-a-cat-drink.html">How Much Water Should a Cat Drink?</a></li>
-<li><a href="how-much-food-should-i-feed-my-cat.html">How Much Food Should I Feed My Cat?</a></li>
-<li><a href="how-to-calculate-cat-age.html">How to Calculate Cat Age</a></li>
+<li><a href="../cat-blog/how-much-water-should-a-cat-drink.html">How Much Water Should a Cat Drink?</a></li>
+<li><a href="../cat-blog/how-much-food-should-i-feed-my-cat.html">How Much Food Should I Feed My Cat?</a></li>
+<li><a href="../cat-blog/how-to-calculate-cat-age.html">How to Calculate Cat Age</a></li>
 </ul>
+
+<!-- Ad #3 -->
+<div class="ad-container">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9374368296307755"
+     data-ad-slot="4652042516"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -157,9 +201,9 @@ function calculateWater(){
 let weight = parseFloat(document.getElementById("weight").value);
 
 if(isNaN(weight) || weight <= 0){
-document.getElementById("result").innerHTML =
-"Please enter a valid weight.";
-return;
+    document.getElementById("result").innerHTML =
+    "Please enter a valid weight.";
+    return;
 }
 
 let water = weight * 55;
@@ -170,6 +214,21 @@ water.toFixed(0) + " ml";
 }
 </script>
 
+<footer>
+
+<hr>
+
+<p>
+<a href="../index.html">Home</a> |
+<a href="../calculators.html">Calculators</a> |
+<a href="../guides.html">Guides</a> |
+<a href="../about.html">About</a> |
+<a href="../contact.html">Contact</a>
+</p>
+
+<p>Pet Calculators. All rights reserved.</p>
+
+</footer>
+
 </body>
 </html>
-

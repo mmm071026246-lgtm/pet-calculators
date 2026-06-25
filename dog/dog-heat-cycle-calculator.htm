@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dog Heat Cycle Calculator - Estimate Heat Cycle Dates</title>
+
+<meta name="description" content="Free Dog Heat Cycle Calculator. Estimate your dog's next heat cycle, fertile window, and breeding dates based on the last heat start date.">
+
+<meta name="keywords" content="dog heat cycle calculator,dog estrus calculator,dog breeding calculator,dog fertility calculator">
+
+<meta name="robots" content="index,follow">
+
+<link rel="canonical" href="https://mmm071026246-lgtm.github.io/pet-calculators/dog/dog-heat-cycle-calculator.html">
+
+<meta property="og:title" content="Dog Heat Cycle Calculator">
+<meta property="og:description" content="Estimate your dog's next heat cycle and fertile period.">
+<meta property="og:type" content="website">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9374368296307755"
+crossorigin="anonymous"></script>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    max-width:800px;
+    margin:auto;
+    padding:20px;
+    line-height:1.6;
+}
+
+input,button{
+    padding:10px;
+    font-size:16px;
+    margin:5px 0;
+}
+
+button{
+    cursor:pointer;
+}
+
+.result{
+    margin-top:20px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.ad-box{
+    margin:30px 0;
+    text-align:center;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    padding-left:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<a href="../index.html">← Home</a>
+
+<h1>Dog Heat Cycle Calculator</h1>
+
+<div class="ad-box">
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-9374368296307755"
+data-ad-slot="4652042516"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+
+<p>
+Use this free dog heat cycle calculator to estimate your dog's fertile window, breeding dates, and next expected heat cycle.
+</p>
+
+<h2>Calculator</h2>
+
+<label>Last Heat Cycle Start Date</label><br> <input type="date" id="heatDate">
+
+<br><br>
+
+<button onclick="calculateHeatCycle()">Calculate</button>
+
+<div class="result" id="result"></div>
+
+<div class="ad-box">
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-9374368296307755"
+data-ad-slot="4652042516"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+
+<h2>How the Dog Heat Cycle Calculator Works</h2>
+
+<p>
+Most female dogs enter heat approximately every 6 months, although timing can vary by breed, age, and individual health.
+</p>
+
+<p>
+Ovulation often occurs around days 10–14 after the heat cycle begins, making this period the most fertile time for breeding.
+</p>
+
+<h2>Typical Heat Cycle Stages</h2>
+
+<ul>
+<li><strong>Proestrus:</strong> Days 1–9</li>
+<li><strong>Estrus (Fertile Period):</strong> Days 10–14</li>
+<li><strong>Diestrus:</strong> Around 60 days</li>
+<li><strong>Anestrus:</strong> Resting phase until next cycle</li>
+</ul>
+
+<div class="ad-box">
+<ins class="adsbygoogle"
+style="display:block"
+data-ad-client="ca-pub-9374368296307755"
+data-ad-slot="4652042516"
+data-ad-format="auto"
+data-full-width-responsive="true"></ins>
+<script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+</div>
+
+<h2>Related Calculators</h2>
+
+<ul>
+<li><a href="dog-pregnancy-calculator.html">Dog Pregnancy Calculator</a></li>
+<li><a href="dog-pregnancy-week-calculator.html">Dog Pregnancy Week Calculator</a></li>
+<li><a href="dog-due-date-calculator.html">Dog Due Date Calculator</a></li>
+<li><a href="dog-gestation-period-calculator.html">Dog Gestation Calculator</a></li>
+<li><a href="dog-age-calculator.html">Dog Age Calculator</a></li>
+</ul>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>How often do dogs go into heat?</h3>
+<p>
+Most dogs experience heat cycles about every six months, although some breeds vary.
+</p>
+
+<h3>When is a dog most fertile?</h3>
+<p>
+Many dogs are most fertile between days 10 and 14 after the start of their heat cycle.
+</p>
+
+<h3>How long does a heat cycle last?</h3>
+<p>
+A typical heat cycle lasts approximately 2 to 4 weeks.
+</p>
+
+<h3>Can heat cycles vary by breed?</h3>
+<p>
+Yes. Smaller breeds often cycle more frequently, while giant breeds may cycle less often.
+</p>
+
+<h3>Is this calculator accurate?</h3>
+<p>
+The calculator provides estimates based on common canine reproductive timelines. Individual dogs may vary.
+</p>
+
+<footer>
+
+<hr>
+
+<p>
+<a href="../index.html">Home</a> |
+<a href="../calculators.html">Calculators</a> |
+<a href="../guides.html">Guides</a> |
+<a href="../about.html">About</a> |
+<a href="../contact.html">Contact</a>
+</p>
+
+<p>Pet Calculators. All rights reserved.</p>
+
+</footer>
+
+<script>
+
+function formatDate(date){
+
+    return date.toLocaleDateString(
+        "en-US",
+        {
+            year:"numeric",
+            month:"long",
+            day:"numeric"
+        }
+    );
+}
+
+function calculateHeatCycle(){
+
+    let inputDate =
+        document.getElementById("heatDate").value;
+
+    if(!inputDate){
+
+        document.getElementById("result").innerHTML =
+        "Please select a valid date.";
+
+        return;
+    }
+
+    let startDate = new Date(inputDate);
+
+    let fertileStart = new Date(startDate);
+    fertileStart.setDate(fertileStart.getDate() + 10);
+
+    let fertileEnd = new Date(startDate);
+    fertileEnd.setDate(fertileEnd.getDate() + 14);
+
+    let nextHeat = new Date(startDate);
+    nextHeat.setMonth(nextHeat.getMonth() + 6);
+
+    document.getElementById("result").innerHTML =
+    `
+    Estimated Fertile Window:
+    <br>
+    ${formatDate(fertileStart)}
+    -
+    ${formatDate(fertileEnd)}
+
+    <br><br>
+
+    Estimated Best Breeding Dates:
+    <br>
+    Days 10–14 of the cycle
+
+    <br><br>
+
+    Estimated Next Heat Cycle:
+    <br>
+    ${formatDate(nextHeat)}
+    `;
+}
+
+</script>
+
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"WebApplication",
+ "name":"Dog Heat Cycle Calculator",
+ "applicationCategory":"UtilityApplication",
+ "operatingSystem":"Any"
+}
+</script>
+
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"FAQPage",
+ "mainEntity":[
+  {
+   "@type":"Question",
+   "name":"How often do dogs go into heat?",
+   "acceptedAnswer":{
+    "@type":"Answer",
+    "text":"Most dogs enter heat approximately every six months."
+   }
+  },
+  {
+   "@type":"Question",
+   "name":"When is a dog most fertile?",
+   "acceptedAnswer":{
+    "@type":"Answer",
+    "text":"Many dogs are most fertile between days 10 and 14 of the heat cycle."
+   }
+  },
+  {
+   "@type":"Question",
+   "name":"How long does a heat cycle last?",
+   "acceptedAnswer":{
+    "@type":"Answer",
+    "text":"A typical heat cycle lasts about two to four weeks."
+   }
+  }
+ ]
+}
+</script>
+
+</body>
+</html>
