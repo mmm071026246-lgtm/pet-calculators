@@ -1,267 +1,519 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-<!-- HOME -->
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/</loc>
-<changefreq>daily</changefreq>
-<priority>1.0</priority>
-</url>
-
-<!-- MAIN PAGES -->
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/calculators.html</loc>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/guides.html</loc>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/about.html</loc>
-<changefreq>yearly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/contact.html</loc>
-<changefreq>yearly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/privacy-policy.html</loc>
-<changefreq>yearly</changefreq>
-<priority>0.3</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/terms.html</loc>
-<changefreq>yearly</changefreq>
-<priority>0.3</priority>
-</url>
-
-<!-- PET HUBS -->
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/dog/</loc>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/cat/</loc>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/bird/</loc>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/rabbit/</loc>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/hamster/</loc>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/guinea-pig/</loc>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/fish/</loc>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/turtle/</loc>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/reptile/</loc>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/horse/</loc>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<!-- BLOG HUBS -->
-
-<url><loc>https://mmm071026246-lgtm.github.io/dog-blog/</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/cat-blog/</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/bird-blog/</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/rabbit-blog/</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/hamster-blog/</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/guinea-pig-blog/</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/fish-blog/</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/turtle-blog/</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/reptile-blog/</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/horse-blog/</loc></url>
-
-<!-- DOG HUB -->
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/dog/index.html</loc>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/dog/calculators.html</loc>
-<priority>0.9</priority>
-</url>
-
-<!-- DOG BLOG -->
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/dog-blog/index.html</loc>
-<priority>0.8</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/dog-blog/how-much-food-should-i-feed-my-dog.html</loc>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/dog-blog/how-much-water-should-a-dog-drink.html</loc>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/dog-blog/how-to-calculate-dog-age.html</loc>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/dog-blog/signs-your-dog-is-overweight.html</loc>
-</url>
-
-<!-- CAT -->
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/cat/</loc>
-<changefreq>weekly</changefreq>
-<priority>0.9</priority>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/cat/index.html</loc>
-<priority>0.9</priority>
-</url>
-
-<!-- CAT CALCULATORS -->
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/cat/cat-age-calculator.html</loc>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/cat/cat-food-calculator.html</loc>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/cat/cat-pregnancy-calculator.html</loc>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/cat/cat-water-intake-calculator.html</loc>
-</url>
-
-<!-- CAT BLOG -->
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/cat-blog/</loc>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/cat-blog/how-much-food-should-i-feed-my-cat.html</loc>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/cat-blog/how-much-water-should-a-cat-drink.html</loc>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/cat-blog/how-to-calculate-cat-age.html</loc>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/cat-blog/cat-pregnancy-length-explained.html</loc>
-</url>
-<!-- DOG CALCULATORS -->
-
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-age-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-bmi-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-body-condition-score-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-calorie-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-daily-protein-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-due-date-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-exercise-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-feeding-schedule-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-food-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-food-cost-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-gestation-period-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-heat-cycle-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-ideal-weight-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-life-expectancy-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-pregnancy-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-pregnancy-timeline.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-pregnancy-week-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-quality-of-life-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-raw-food-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-rer-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-size-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-treat-calorie-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-walking-calorie-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-water-intake-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-weight-gain-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-weight-loss-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/dog-years-to-human-years-chart.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/puppy-growth-stages-month-by-month.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/puppy-vaccination-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/puppy-weight-calculator.html</loc></url>
-<url><loc>https://mmm071026246-lgtm.github.io/dog/senior-dog-age-calculator.html</loc></url>
-<!-- DOG BLOG -->
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/dog-blog/index.html</loc>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/dog-blog/how-much-food-should-i-feed-my-dog.html</loc>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/dog-blog/how-much-water-should-a-dog-drink.html</loc>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/dog-blog/how-to-calculate-dog-age.html</loc>
-</url>
-
-<url>
-<loc>https://mmm071026246-lgtm.github.io/dog-blog/signs-your-dog-is-overweight.html</loc>
-</url>
-
-</urlset>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/about.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/bird\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/bird-blog\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/calculators.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/cat\cat-age-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/cat\cat-food-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/cat\cat-pregnancy-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/cat\cat-water-intake-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/cat\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/cat-blog\cat-pregnancy-length-explained.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/cat-blog\how-much-food-should-i-feed-my-cat.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/cat-blog\how-much-water-should-a-cat-drink.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/cat-blog\how-to-calculate-cat-age.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/contact.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\calculators.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-age-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-bmi-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-body-condition-score-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-calorie-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-daily-protein-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-due-date-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-exercise-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-feeding-schedule-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-food-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-food-cost-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-gestation-period-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-heat-cycle-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-ideal-weight-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-life-expectancy-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-pregnancy-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-pregnancy-timeline.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-pregnancy-week-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-quality-of-life-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-raw-food-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-rer-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-size-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-treat-calorie-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-walking-calorie-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-water-intake-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-weight-gain-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-weight-loss-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\dog-years-to-human-years-chart.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\puppy-growth-stages-month-by-month.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\puppy-vaccination-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\puppy-weight-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog\senior-dog-age-calculator.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\behavior\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\breeds\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\exercise\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\health\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\how-much-food-should-i-feed-my-dog.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\how-much-water-should-a-dog-drink.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\how-to-calculate-dog-age.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-brands.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-active-dogs.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-allergies.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-diabetic-dogs.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-digestive-health.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-itchy-skin.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-joint-health.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-kidney-disease.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-large-breeds.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-older-dogs.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-puppies.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-senior-dogs.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-sensitive-stomachs.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-skin-allergies.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-small-breeds.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-weight-gain.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-weight-loss.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dog-food-for-weight-management.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-dry-dog-food.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-food-for-puppies.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-food-for-senior-dogs.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-grain-free-dog-food.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-high-protein-dog-foods.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\best-wet-dog-food.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-apples.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-avocado.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-bananas.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-blackberries.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-blueberries.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-bread.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-broccoli.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-carrots.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-cheese.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-cherries.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-chicken.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-coconut.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-corn.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-cucumbers.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-eggs.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-grapes.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-green-beans.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-kiwi.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-mango.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-oatmeal.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-oranges.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-peaches.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-peanut-butter.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-pears.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-pineapple.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-popcorn.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-pork.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-potatoes.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-pumpkin.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-raspberries.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-rice.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-salmon.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-spinach.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-strawberries.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-sweet-potatoes.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-tomatoes.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-tuna.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-turkey.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-watermelon.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\can-dogs-eat-yogurt.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\diabetes-diet-for-dogs.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\dog-feeding-chart-by-age.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\dog-feeding-chart-by-weight.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\dog-feeding-schedule-by-age.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\dog-weight-gain-diet-guide.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\dog-weight-loss-diet-guide.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\foods-dogs-should-never-eat.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\grain-free-diet-for-dogs.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\high-fiber-diet-for-dogs.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\homemade-dog-food-guide.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\how-long-can-a-dog-go-without-food.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\how-many-calories-does-my-dog-need.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\how-many-times-should-a-dog-eat-per-day.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\how-much-dry-food-should-a-dog-eat.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\how-much-food-should-i-feed-my-dog.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\how-much-should-a-puppy-eat.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\how-much-should-a-senior-dog-eat.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\how-much-water-should-a-dog-drink.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\how-much-wet-food-should-a-dog-eat.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\how-often-should-puppies-eat.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\how-to-measure-dog-food-correctly.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\hypoallergenic-dog-diet.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\kidney-disease-diet-for-dogs.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\low-fat-diet-for-dogs.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\protein-requirements-for-dogs.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\puppy-nutrition-guide.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\raw-diet-for-dogs.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\senior-dog-nutrition-guide.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\should-dogs-eat-once-or-twice-a-day.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\wet-food-vs-dry-food-for-dogs.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\what-time-should-i-feed-my-dog.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\when-should-dogs-eat-before-bed.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\when-should-puppies-switch-to-adult-food.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\why-is-my-dog-always-hungry.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\why-is-my-dog-eating-too-fast.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\nutrition\why-is-my-dog-not-eating.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\pregnancy\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\puppy\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\senior\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/dog-blog\signs-your-dog-is-overweight.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/fish\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/google02c769f5b0af9467.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/guides.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/guinea-pig\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/hamster\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/horse\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/privacy-policy.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/rabbit\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/reptile\index.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/terms.html</loc>
+  </url>
+  <url>
+    <loc>https://mmm071026246-lgtm.github.io/turtle\index.html</loc>
+  </url>
+</urlset>`n
